@@ -1,0 +1,197 @@
+/* styles of header part */
+header{
+    background-image: url("../images/donation1.jpg"),linear-gradient(rgba(0,0,0,0.1), rgba(0,0,0,0.9));
+    background-blend-mode: overlay;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100%;
+    padding: 150px 0;
+    
+    
+}
+.header-writing-part{
+    color: white;
+    text-align: center;
+    
+    
+    
+}
+.donate-btn{
+    background-color: red;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 5px;
+    color: white;
+}
+/* styles for all font size */
+*{
+    font-size: 10vm;
+}
+/* donate today styles */
+.donate-today{
+    text-align: center;
+    padding: 100px 50px;
+    
+}
+.donate-today p, .donate-taka, .our-donate-plan p, .our-live p, .they-need-survive p, .get-my-update p{
+    color: grey;
+}
+.donate-today .donate-taka{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    
+    
+}
+.donate-taka h1{
+    background-color:lightcyan;
+    padding: 20px 30px;
+}
+.donate-taka h1:hover{
+    background-color: lavenderblush;
+    color: red;
+    border: 2px solid red;
+}
+
+/* our donate plan styles */
+.our-donate-plan{
+    text-align: center;
+    padding-top: 40px;
+
+
+}
+.donate-plan-div{
+    display: flex;
+    gap: 40px;
+    justify-content: center;
+    align-items: center;
+}
+.div-1{
+    background-color:lightskyblue;
+}
+.div-2{
+    background-color: lavenderblush;
+}
+.div-3{
+    background-color: bisque;
+}
+.our-donate-plan p{
+    padding-top: 20px;
+    padding-bottom: 50px;
+}
+/* our live part */
+.our-live{
+    display: flex;
+    text-align: center;
+    padding: 100px
+
+    
+}
+.our-live>div{
+    width: 50%;
+}
+.our-live img{
+    height: 300px;
+    width: 100%;
+    text-align: center;
+}
+/* they need us to survive part */
+.they-need-survive{
+    display: flex;
+    gap: 90px;
+    padding: 100px ;
+
+}
+.they-need-survive>div{
+    width: 50%;
+}
+.they-need-survive img{
+    width: 100%;
+    height: 400px;
+}
+/* get my update part */
+.get-my-update{
+    text-align: center;
+    padding: 50px 100px;
+}
+.get-my-update p{
+    padding-top: 20px;
+    padding-bottom: 50px;
+}
+.get-my-update button{
+    margin-top: 20px;
+}
+.get-my-update input{
+    padding: 10px 20px;
+}
+.email-btn{
+    background-color: bisque;
+    padding: 30px 50px;
+}
+/* footer part */
+footer{
+    background-color: black;
+    color: red;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+}
+
+@media screen and (max-width:576px){
+    .donate-today{
+        font-size: 10vm;
+        padding-top: 30px;
+       
+    }
+    .donate-today .donate-taka{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .our-live{
+        flex-direction: column;
+        gap: 20px;
+        font-size: 10vm;
+        padding: 10px;
+        
+    
+
+    }
+    .our-live>div{
+        width: 100%;
+    }
+    .they-need-survive{
+        flex-direction: column-reverse;
+        
+    }
+    .they-need-survive>div{
+        width: 100%;
+    }
+    .header-writing-part{
+        padding-top: 0;
+    }
+    .donate-today{
+        padding: 0;
+    }
+.get-my-update{
+    padding: 0;
+}
+.they-need-survive{
+    padding: 0;
+}
+.donate-plan-div{
+flex-direction: column;
+}
+
+    
+}
+@media screen and (min-width:577px) and (max-width:992px){
+   .header-writing-part{
+    padding-top: 150px;
+   }
+    
+}
+
+
+
